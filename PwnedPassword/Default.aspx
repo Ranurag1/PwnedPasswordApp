@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
      <mian>
-         Password: <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+         Enter Password: <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
          <asp:Button runat="server" ID="btnSubmit" OnClick="btnSubmit_Click" Text="Submit" />
          <p>Status: <asp:Label runat="server" ID="lblMsg"></asp:Label></p>
          <p>Exception: <asp:Label runat="server" ID="lblifException"></asp:Label></p>
